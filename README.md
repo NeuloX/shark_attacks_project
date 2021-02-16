@@ -12,9 +12,10 @@ Using Shark Attack data as the base dataset, we want to determine if there are a
 ## Data Sources:
 - Main dataset of shark attacks: https://www.sharkattackfile.net/incidentlog.htm.
 - Scraping PDF summaries of each attack from: http://sharkattackfile.net/spreadsheets/pdf_directory/.
+- Shark Facts from National Geo and Wikipedia
 
 ## Visualisation of Data:
-- Choropleth map of where most attacks occur, toggling on and off which attacks are fatal (https://leafletjs.com/examples/choropleth/)
-- Sunburst chart of attacks and breaking down the region and shark breed (https://observablehq.com/@d3/zoomable-sunburst)
-- Map to show tidal patterns potentially.
+- Tableau
+- Using Tensorflow to identify shark species
+
 
