@@ -72,7 +72,7 @@ def home():
 def api():
     session = Session(engine)
 
-    results = db.session.query(Attacks.case_number,  Attacks.year, Attacks.country, Attacks.type, Attacks.species, Attacks.fatal, Attacks.sex)
+    results = session.query(Attacks.case_number,  Attacks.year, Attacks.country, Attacks.type, Attacks.species, Attacks.fatal, Attacks.sex)
     #filter(Pdf.case_number == Attacks.case_number).all()
 
     case_number = [result[0] for result in results]
