@@ -19,7 +19,6 @@ app = Flask(__name__)
 
 # import sqlalchemy
 from flask_sqlalchemy import SQLAlchemy as sqlalchemy
-#from config import username, password
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, MetaData, Table
@@ -45,6 +44,10 @@ from tensorflow.keras.applications.vgg19 import (
     decode_predictions
 )
 
+# DATABASE_URL will contain the database connection string:
+app.config['postgres://roiwimyplsisvt:7a68b737557eb6182ab100fabbf6e4e8e080b5132ca425d81b9fbaf9eb737c0b@ec2-52-205-61-60.compute-1.amazonaws.com:5432/d5ug7elorgd6et'] = os.environ.get('heroku pg:psql postgresql-curly-06176 --app shark-attacks', '')
+# Connects to the database using the app config
+db = sqlalchemy(app)
 
 
 
