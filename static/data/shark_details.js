@@ -12,7 +12,16 @@ var shark_deets = {
     ,{"species":"tiger shark","scientific_name":"Galeocerdo cuvier","img_url":"https://upload.wikimedia.org/wikipedia/commons/3/39/Tiger_shark.jpg",
     "details":
     "It is a large macropredator, capable of attaining a length over 5 m (16 ft 5 in). Populations are found in many tropical and temperate waters, especially around central Pacific islands. Its name derives from the dark stripes down its body, which resemble a tiger's pattern, but fade as the shark matures.",
-    "diet": "They are consummate scavengers, with excellent senses of sight and smell and a nearly limitless menu of diet items. They have sharp, highly serrated teeth and powerful jaws that allow them to crack the shells of sea turtles and clams. The stomach contents of captured tiger sharks have included stingrays, sea snakes, seals, birds, squids, and even license plates and old tires."}
+    "diet": "They are consummate scavengers, with excellent senses of sight and smell and a nearly limitless menu of diet items. They have sharp, highly serrated teeth and powerful jaws that allow them to crack the shells of sea turtles and clams. The stomach contents of captured tiger sharks have included stingrays, sea snakes, seals, birds, squids, and even license plates and old tires."
+    },
+    {"species":"hammerhead sharks","scientific_name":"Sphyrnidae","img_url":"https://happygringo.com/wp-content/uploads/2021/02/hammerhead-sharks-archipelago-.jpg",
+    "details":
+    "group of sharks that form the family Sphyrnidae, so named for the unusual and distinctive structure of their heads, which are flattened and laterally extended into a 'hammer' shape called a cephalofoil. Most hammerhead species are placed in the genus Sphyrna, while the winghead shark is placed in its own genus, Eusphyra. Many, but not necessarily mutually exclusive, functions have been postulated for the cephalofoil, including sensory reception, manoeuvering, and prey manipulation.",
+    "diet": 
+    "Hammerhead sharks eat a large range of prey such as fish (including other sharks), squid, octopus, and crustaceans. Stingrays are a particular favorite. These sharks are often found swimming along the bottom of the ocean, stalking their prey. Their unique heads are used as a weapon when hunting down prey. The hammerhead shark uses its head to pin down stingrays and eats the ray when the ray is weak and in shock"        
+    },
+    
+
 ]
 
     }
